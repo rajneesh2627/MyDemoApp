@@ -24,6 +24,7 @@ namespace NUnitTestCases
         }
 
         [SetUp]
+        // to be called before any other method.
         public void InitializeSUnderTest()
         {
             sut = new CheckStudentValidations();
