@@ -16,3 +16,12 @@ F:\CRUD-APP\EfCrudDemo\EL.Student\obj\Debug\netstandard2.0\EL.Student.AssemblyIn
 F:\CRUD-APP\EfCrudDemo\EL.Student\obj\Debug\netstandard2.0\EL.Student.AssemblyInfo.cs
 F:\CRUD-APP\EfCrudDemo\EL.Student\obj\Debug\netstandard2.0\EL.Student.dll
 F:\CRUD-APP\EfCrudDemo\EL.Student\obj\Debug\netstandard2.0\EL.Student.pdb
+F:\MyCRUDApp\MyDemoApp\EL.Student\bin\Debug\netstandard2.0\EL.Student.deps.json
+F:\MyCRUDApp\MyDemoApp\EL.Student\bin\Debug\netstandard2.0\EL.Student.dll
+F:\MyCRUDApp\MyDemoApp\EL.Student\bin\Debug\netstandard2.0\EL.Student.pdb
+F:\MyCRUDApp\MyDemoApp\EL.Student\obj\Debug\netstandard2.0\EL.Student.csprojAssemblyReference.cache
+F:\MyCRUDApp\MyDemoApp\EL.Student\obj\Debug\netstandard2.0\EL.Student.csproj.CoreCompileInputs.cache
+F:\MyCRUDApp\MyDemoApp\EL.Student\obj\Debug\netstandard2.0\EL.Student.AssemblyInfoInputs.cache
+F:\MyCRUDApp\MyDemoApp\EL.Student\obj\Debug\netstandard2.0\EL.Student.AssemblyInfo.cs
+F:\MyCRUDApp\MyDemoApp\EL.Student\obj\Debug\netstandard2.0\EL.Student.dll
+F:\MyCRUDApp\MyDemoApp\EL.Student\obj\Debug\netstandard2.0\EL.Student.pdb

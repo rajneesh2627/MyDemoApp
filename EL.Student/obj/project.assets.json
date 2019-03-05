@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\CRUD-APP\\EfCrudDemo\\EL.Student\\EL.Student.csproj",
+      "projectUniqueName": "F:\\MyCRUDApp\\MyDemoApp\\EL.Student\\EL.Student.csproj",
       "projectName": "EL.Student",
-      "projectPath": "F:\\CRUD-APP\\EfCrudDemo\\EL.Student\\EL.Student.csproj",
+      "projectPath": "F:\\MyCRUDApp\\MyDemoApp\\EL.Student\\EL.Student.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "F:\\CRUD-APP\\EfCrudDemo\\EL.Student\\obj\\",
+      "outputPath": "F:\\MyCRUDApp\\MyDemoApp\\EL.Student\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

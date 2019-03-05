@@ -45,7 +45,7 @@ namespace NUnitTestCases
             Assert.That(result, Is.EqualTo(1));
         }
 
-        [TestCaseSource(typeof(GetStudentValidSource))]
+        [TestCaseSource(typeof(DeleteStudentSource))]
         public void ShouldDeleteStudent(StudentEntity student)
         {
             var result = sut.DeleteStudent(student);
@@ -74,8 +74,17 @@ namespace NUnitTestCases
     {
         public IEnumerator GetEnumerator()
         {
-            yield return new StudentEntity { Id = 14, Name = "Rajneesh", Age = 18 , Gender = 'M'};
-            yield return new StudentEntity { Id = 15, Name = "RaJNEEsh", Age = 23, Gender = 'M' };
+            yield return new StudentEntity { Id = 18, Name = "Rajneesh", Age = 18 , Gender = 'M'};
+            yield return new StudentEntity { Id = 19, Name = "RaJNEEsh", Age = 23, Gender = 'M' };
+        }
+    }
+
+    public class DeleteStudentSource : IEnumerable
+    {
+        public IEnumerator GetEnumerator()
+        {
+            yield return new StudentEntity { Id = 2 };
+            yield return new StudentEntity { Id = 1 };
         }
     }
 }
