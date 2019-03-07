@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -284,6 +285,18 @@ namespace PL.Student
         private void btnClear_Click(object sender, EventArgs e)
         {
             ClearFields();
+        }
+
+        private void txtId_TextChanged(object sender, EventArgs e)
+        {
+            if (txtId.Text != string.Empty)
+            {
+                if (!System.Text.RegularExpressions.Regex.IsMatch(txtId.Text, @"^[0-9]+$"))
+                {
+                    MessageBox.Show("This textbox accepts only numeric characters", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    ClearFields();
+                }
+            }
         }
     }
 }

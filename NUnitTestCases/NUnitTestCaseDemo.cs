@@ -88,6 +88,7 @@ namespace NUnitTestCases
             var result = sut.SearchStudentById(student);
 
             Assert.That(result, Is.Not.Null);
+            Assert.That(result, Is.InstanceOf<StudentEntity>());
         }
 
         [TestCaseSource(typeof(GetStudentValidSource))]
@@ -96,6 +97,7 @@ namespace NUnitTestCases
             var result = sut.SearchStudentByName(student);
 
             Assert.That(result, Is.Not.Null);
+            Assert.That(result, Is.InstanceOf<StudentEntity>());
         }
     }
 

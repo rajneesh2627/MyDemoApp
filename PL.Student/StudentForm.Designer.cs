@@ -166,6 +166,7 @@
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(164, 22);
             this.txtId.TabIndex = 1;
+            this.txtId.TextChanged += new System.EventHandler(this.txtId_TextChanged);
             // 
             // btnUpdate
             // 
